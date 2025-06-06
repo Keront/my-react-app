@@ -1,10 +1,10 @@
-import { Message } from './components/Message.tsx';
+import { Message } from './src/components/Message.tsx';
 
 function App() {
   const messageText = "Привет, это мое первое React-приложение!";
   
   return (
-    <div>
+    <div> 
       <Message text={messageText} />
     </div>
   );
