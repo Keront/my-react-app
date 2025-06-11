@@ -1,9 +1,12 @@
-import Layout from './components/Layout/Layout';
-import './App.css';
+import Message from './components/Message';
 
 function App() {
+  const messageText = "сообщение";
+
   return (
-    <Layout />
+    <div>
+      <Message text={messageText} />
+    </div>
   );
 }
 
